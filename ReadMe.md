@@ -146,4 +146,5 @@ testCases.waitTime();
 
 // Tear down the WebDriver and close the browser
 testCases.tearDown();
+```
 
