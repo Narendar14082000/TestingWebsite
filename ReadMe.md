@@ -169,14 +169,14 @@ Please refer to the implementation screenshots section below for visual represen
 
 ## Conclusion
 
--In this internship task, we have successfully implemented automation scripts using Selenium WebDriver for the given website. The task involved testing the login functionality, "Remember Me" functionality, navigation with and without query parameters, and sorting functionality on the home page.
+- In this internship task, we have successfully implemented automation scripts using Selenium WebDriver for the given website. The task involved testing the login functionality, "Remember Me" functionality, navigation with and without query parameters, and sorting functionality on the home page.
 
--The implemented scripts covered various functional testing scenarios, ensuring that the application functions as expected. We verified the login page's behavior with different combinations of valid and invalid credentials, observed the retention of the entered username after logout, and tested the navigation to the home -page with and without query parameters. Additionally, we validated the sorting functionality of the transaction table on the home page.
+- The implemented scripts covered various functional testing scenarios, ensuring that the application functions as expected. We verified the login page's behavior with different combinations of valid and invalid credentials, observed the retention of the entered username after logout, and tested the navigation to the home -page with and without query parameters. Additionally, we validated the sorting functionality of the transaction table on the home page.
 
--The test case execution output indicated successful results for all the tested scenarios, with the application performing as intended. The screenshots and video provided in this README showcase the execution process and serve as visual evidence of the implemented automation scripts.
+- The test case execution output indicated successful results for all the tested scenarios, with the application performing as intended. The screenshots and video provided in this README showcase the execution process and serve as visual evidence of the implemented automation scripts.
 
--Overall, this internship task allowed us to gain hands-on experience in using Selenium WebDriver for automating web testing. It provided insights into the importance of functional testing and the benefits of automating repetitive tasks. We hope this project contributes to the improvement of software quality and helps in the identification of any potential issues or bugs.
+- Overall, this internship task allowed us to gain hands-on experience in using Selenium WebDriver for automating web testing. It provided insights into the importance of functional testing and the benefits of automating repetitive tasks. We hope this project contributes to the improvement of software quality and helps in the identification of any potential issues or bugs.
 
--For more details on the implementation and execution, please refer to the respective sections above.
+- For more details on the implementation and execution, please refer to the respective sections above.
 
--Thank you for your attention and consideration. If you have any questions or feedback, feel free to reach out.
+- Thank you for your attention and consideration. If you have any questions or feedback, feel free to reach out.
