@@ -149,5 +149,6 @@ testCases.tearDown();
 ```
 
 ### Output the Program
-![Screenshot Description]([screenshots/screenshot-file-name.png](https://github.com/Narendar14082000/TestingWebsite/blob/master/EclipseOutputScreenshot.png)https://github.com/Narendar14082000/TestingWebsite/blob/master/EclipseOutputScreenshot.png)
+![Screenshot Description](https://github.com/Narendar14082000/TestingWebsite/blob/master/EclipseOutputScreenshot.png)
+
 
