@@ -149,6 +149,6 @@ testCases.tearDown();
 ```
 
 ### Output the Program
-![This is the output Screenshot of the program](EclipseOutputScreenshot.png)
+![](EclipseOutputScreenshot.png)
 
 
