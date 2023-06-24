@@ -101,7 +101,7 @@ for (Double amount : transactionAmounts) {
 }
 ```
 
-## TestCases ([TestCases.java](https://github.com/Narendar14082000/TestingWebsite/blob/master/src/com/example/tests/pages/HomePage.java))
+## TestCases ([TestCases.java](https://github.com/Narendar14082000/TestingWebsite/blob/master/src/com/example/tests/tests/TestCases.java))
 
 The TestCases class contains test cases for a web application. It utilizes the LoginPage and HomePage page objects to perform various functional testing scenarios.
 
@@ -147,9 +147,23 @@ testCases.waitTime();
 // Tear down the WebDriver and close the browser
 testCases.tearDown();
 ```
+## Test Case Execution Output
 
+The following is the summary of the test case execution:
+
+- The driver logs are no longer sent to the console by default. You can refer to [this link](https://www.selenium.dev/documentation/webdriver/drivers/service/#setting-log-output) for more details.
+- The SLF4J logging framework was not found, so a default no-operation (NOP) logger implementation is used. You can find further details [here](https://www.slf4j.org/codes.html#noProviders).
+- The login functionality was successfully tested, and the home page was displayed upon successful login.
+- The "Remember Me" functionality was tested, and it was observed that the login page does not retain the entered username after logout.
+- Navigation to the home page with query parameters was successfully tested, and the home page with the query parameter was displayed.
+- Navigation to the home page without query parameters was successfully tested, and the home page without any query parameter was displayed.
+- The sorting functionality on the home page was tested, and it was verified that the transaction amounts are sorted correctly.
+
+Please refer to the implementation screenshots section below for visual representations of the test case execution.
+
+```
 ## Output the Program
 
 ![](EclipseOutputScreenshot.png)
-
+```
 
