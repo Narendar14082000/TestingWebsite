@@ -65,7 +65,7 @@ Retrieves the entered username from the username input field.
 - Returns: The entered username.
 ```
 
-### HomePage ([HomePage.java](https://github.com/Narendar14082000/TestingWebsite/blob/master/src/com/example/tests/pages/HomePage.java))
+## HomePage ([HomePage.java](https://github.com/Narendar14082000/TestingWebsite/blob/master/src/com/example/tests/pages/HomePage.java))
 
 The HomePage class represents the home page of the application. It provides methods to interact with elements on the home page, such as sorting the transaction table by the "Amount" header and retrieving the transaction amounts.
 
@@ -82,7 +82,7 @@ The HomePage class represents the home page of the application. It provides meth
 
 These methods can be used to automate interactions with the home page and perform functional testing scenarios, such as verifying the sorting of transaction amounts.
 
-##### Example Usage
+##### Usage
 
 ```java
 // Create an instance of the HomePage
