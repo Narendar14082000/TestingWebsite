@@ -1,4 +1,4 @@
-<h1 align="center">Intership Task</h1>
+<h1 align="center">INTERNSHIP TASK</h1>
 <h2>Task</h2>
 <p>Writing the Automation scripts using Selenium Web Driver for given website</p>
 <a href="https://sakshingp.github.io/assignment/login.html">https://sakshingp.github.io/assignment/login.html</a>
