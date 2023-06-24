@@ -161,9 +161,6 @@ The following is the summary of the test case execution:
 
 Please refer to the implementation screenshots section below for visual representations of the test case execution.
 
-```
-## Output the Program
-
 ![](EclipseOutputScreenshot.png)
-```
+
 
