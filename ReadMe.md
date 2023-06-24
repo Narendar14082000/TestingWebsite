@@ -99,4 +99,51 @@ System.out.println("Transaction Amounts:");
 for (Double amount : transactionAmounts) {
     System.out.println(amount);
 }
+```
+
+## TestCases ([TestCases.java]())
+
+The TestCases class contains test cases for a web application. It utilizes the LoginPage and HomePage page objects to perform various functional testing scenarios.
+
+#### Constructor
+
+- `TestCases()`: Constructs a new TestCases object.
+
+#### Methods
+
+- `setUp()`: Sets up the WebDriver and initializes the page objects.
+- `waitTime()`: Pauses the execution for a specified amount of time.
+- `testLoginPage()`: Tests the login functionality by entering the username and password, clicking the login button, and checking if the user is redirected to the home page.
+- `testRememberMeFunctionality()`: Tests the "Remember Me" functionality by entering valid credentials, checking the "Remember Me" checkbox, clicking the login button, logging out, and verifying if the entered username is retained on the login page.
+- `testNavigationWithQueryParameters()`: Tests navigation to the home page with query parameters by entering valid credentials, clicking the login button, and checking if the user is redirected to the home page with the query parameter retained.
+- `testNavigationWithoutQueryParameters()`: Tests navigation to the home page without query parameters by entering valid credentials, clicking the login button, and checking if the user is redirected to the home page without any query parameters.
+- `testHomePageSorting()`: Tests the sorting functionality on the home page by navigating to the home page, clicking the "Amount" header to sort the transaction table, retrieving the sorted transaction amounts, creating a copy of the amounts and sorting it in ascending order, and comparing the sorted amounts with the expected sorted amounts.
+- `tearDown()`: Tears down the WebDriver and closes the browser.
+- `main(String[] args)`: The main method to execute the test cases.
+
+These methods can be used to automate functional testing scenarios on the web application, covering login functionality, "Remember Me" functionality, navigation with query parameters, and sorting on the home page.
+
+##### Example Usage
+
+```java
+// Create an instance of the TestCases class
+TestCases testCases = new TestCases();
+
+// Set up the WebDriver and initialize page objects
+testCases.setUp();
+
+// Execute the test cases
+testCases.testLoginPage();
+testCases.waitTime();
+testCases.testRememberMeFunctionality();
+testCases.waitTime();
+testCases.testNavigationWithQueryParameters();
+testCases.waitTime();
+testCases.testNavigationWithoutQueryParameters();
+testCases.waitTime();
+testCases.testHomePageSorting();
+testCases.waitTime();
+
+// Tear down the WebDriver and close the browser
+testCases.tearDown();
 
