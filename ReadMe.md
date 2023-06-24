@@ -25,3 +25,43 @@
     4. Verify that the transaction values in the table are sorted in ascending or descending order based on the clicked header.
 - Expected Result: Clicking the AMOUNT header should trigger the sorting of transaction values in the table, with the values displayed in the expected order.
 
+## LoginPage Class ([LoginPage.java](https://github.com/Narendar14082000/TestingWebsite/blob/master/src/com/example/tests/pages/LoginPage.java))
+
+The LoginPage class represents the login page of the application. It provides methods to interact with the login form, enter a username and password, and perform login actions.
+
+#### Constructor
+
+- `LoginPage(WebDriver driver)`: Constructs a new LoginPage object.
+    - Parameters:
+        - `driver`: The WebDriver instance to use for interacting with the web elements.
+
+#### Methods
+
+- `enterUsername(String username)`: Enters the specified username into the username input field.
+- `enterPassword(String password)`: Enters the specified password into the password input field.
+- `clickLoginButton()`: Clicks the login button.
+- `getUsername()`: Retrieves the entered username from the username input field.
+
+These methods can be used to automate the login process in the application and perform functional testing scenarios.
+
+##### Example Usage
+
+```java
+// Create an instance of the LoginPage
+LoginPage loginPage = new LoginPage(driver);
+
+// Enter the username and password
+loginPage.enterUsername("john@example.com");
+loginPage.enterPassword("password123");
+
+// Click the login button
+loginPage.clickLoginButton();
+
+// Retrieve the entered username
+String enteredUsername = loginPage.getUsername();
+System.out.println("Entered username: " + enteredUsername);
+
+Retrieves the entered username from the username input field.
+- Returns: The entered username.
+
+
