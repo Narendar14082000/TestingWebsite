@@ -123,7 +123,7 @@ The TestCases class contains test cases for a web application. It utilizes the L
 
 These methods can be used to automate functional testing scenarios on the web application, covering login functionality, "Remember Me" functionality, navigation with query parameters, and sorting on the home page.
 
-##### Example Usage
+##### Usage
 
 ```java
 // Create an instance of the TestCases class
@@ -147,4 +147,7 @@ testCases.waitTime();
 // Tear down the WebDriver and close the browser
 testCases.tearDown();
 ```
+
+### Output the Program
+![Screenshot Description](screenshots/screenshot-file-name.png)
 
