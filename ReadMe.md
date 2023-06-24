@@ -63,6 +63,7 @@ System.out.println("Entered username: " + enteredUsername);
 
 Retrieves the entered username from the username input field.
 - Returns: The entered username.
+```
 
 ### HomePage ([HomePage.java](https://github.com/Narendar14082000/TestingWebsite/blob/master/src/com/example/tests/pages/HomePage.java))
 
