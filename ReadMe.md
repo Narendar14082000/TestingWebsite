@@ -101,7 +101,7 @@ for (Double amount : transactionAmounts) {
 }
 ```
 
-## TestCases ([TestCases.java]())
+## TestCases ([TestCases.java](https://github.com/Narendar14082000/TestingWebsite/blob/master/src/com/example/tests/pages/HomePage.java))
 
 The TestCases class contains test cases for a web application. It utilizes the LoginPage and HomePage page objects to perform various functional testing scenarios.
 
@@ -148,7 +148,8 @@ testCases.waitTime();
 testCases.tearDown();
 ```
 
-### Output the Program
+## Output the Program
+
 ![](EclipseOutputScreenshot.png)
 
 
