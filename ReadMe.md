@@ -44,7 +44,7 @@ The LoginPage class represents the login page of the application. It provides me
 
 These methods can be used to automate the login process in the application and perform functional testing scenarios.
 
-##### Example Usage
+##### Usage
 
 ```java
 // Create an instance of the LoginPage
